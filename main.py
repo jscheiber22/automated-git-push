@@ -31,6 +31,7 @@ if __name__ == "__main__":
             psuz = input("\nPush " + str(pwd) + "?\n")
             if psuz == "y":
                 subprocess.call(["git", "push"])
+            print("\n")
         except KeyboardInterrupt:
             quit = input("Quit? ")
             if quit != "n":
